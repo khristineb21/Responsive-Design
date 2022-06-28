@@ -1,0 +1,88 @@
+
+A:link {color: gray}
+A:visited, A:active {color: green}
+A:hover {text-decoration: overline; color: teal}
+	
+Body {
+	background-color: white;
+	font-family: cambria;
+	color: gray	
+	}
+
+H1 {font-size: 50pt; text-align: center}
+H2 {font-size: 25pt; text-align: center}
+H3 {font-size: 10pt; text-align: center}
+H4 {text-align: center}
+H5 {font-size: 15pt ; margin:10px}
+
+P {font-size: 10pt; font-family: monospace}
+
+Table {
+	width: 400px; 
+	font-family: monospace; 
+	color: white; 
+	background-color: green;
+	margin: .8em;
+	border-color: darkgreen}
+
+
+Form {
+	font-family: monospace; 
+	text-align: center; 
+	color: white; 
+	background-color: green}
+
+.info-mission {
+	width: 40%;
+	margin: 10px;
+}
+
+.img-logo {
+	height: 15em;
+	margin-left: 150px;
+}
+
+/* ipad/tablet */
+@media screen and (max-width: 1000px) {
+	.info-mission {
+		width: 60%;
+		margin: 10px;
+	}
+
+	.info-movement {
+		width: 100%;
+		margin: 10px;
+	}
+
+	.img-logo {
+		width: 50%;
+		margin: 10px;
+	}
+	.img-vegetable {
+		width: 50%;
+		margin-left:5px;
+	}
+}
+
+/* phone */
+@media only screen and (max-width: 700px) {
+	.info-mission {
+		width:100%;
+		margin: 10px;
+	}
+
+	.info-movement {
+		width: 100%;
+		margin: 10px;
+	}
+	.img-logo {
+		width: 100%;
+		margin-left: 10px;
+
+	}
+	.img-vegetable {
+		width: 100%;
+		margin-left: 10px;
+	}
+}
+	
