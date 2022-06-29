@@ -9,7 +9,7 @@ Body {
 	color: gray	
 	}
 
-H1 {font-size: 50pt; text-align: center}
+H1 {font-size: 40pt; text-align: center}
 H2 {font-size: 25pt; text-align: center}
 H3 {font-size: 10pt; text-align: center}
 H4 {text-align: center}
@@ -32,6 +32,18 @@ Form {
 	color: white; 
 	background-color: green}
 
+.nav-bar {
+list-style: none;
+background-color:#bdcebe;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+font-size: 20px;
+position: sticky;
+height: 50px;
+}
+
+
 .info-mission {
 	width: 40%;
 	margin: 10px;
@@ -44,6 +56,8 @@ Form {
 
 /* ipad/tablet */
 @media screen and (max-width: 1000px) {
+
+
 	.info-mission {
 		width: 60%;
 		margin: 10px;
