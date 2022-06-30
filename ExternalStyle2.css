@@ -1,12 +1,12 @@
 
 A:link {color: gray}
 A:visited, A:active {color: green}
-A:hover {text-decoration: overline; color: teal}
+A:hover {text-decoration: overline; color: green}
 	
 Body {
-	background-color: white;
+	background-color:#bdcebe;;
 	font-family: cambria;
-	color: gray	
+	color: white	
 	}
 
 H1 {font-size: 40pt; text-align: center}
@@ -23,7 +23,11 @@ Table {
 	color: white; 
 	background-color: green;
 	margin: .8em;
-	border-color: darkgreen}
+	border-color: darkgreen;
+	align-items: center;
+	width: 40%;
+}
+	
 
 
 Form {
@@ -34,13 +38,23 @@ Form {
 
 .nav-bar {
 list-style: none;
-background-color:#bdcebe;
+background-color:white;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
 font-size: 20px;
 position: sticky;
 height: 50px;
+}
+
+/* Hero Image */
+.hero-image-logo {
+  background-image: url("logo.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 
@@ -59,7 +73,7 @@ height: 50px;
 
 
 	.info-mission {
-		width: 60%;
+		width: 40%;
 		margin: 10px;
 	}
 
@@ -69,12 +83,14 @@ height: 50px;
 	}
 
 	.img-logo {
-		width: 50%;
 		margin: 10px;
 	}
 	.img-vegetable {
 		width: 50%;
 		margin-left:5px;
+	}
+	Table {
+		width: 30%;
 	}
 }
 
@@ -90,13 +106,17 @@ height: 50px;
 		margin: 10px;
 	}
 	.img-logo {
-		width: 100%;
+		width: 90%;
 		margin-left: 10px;
 
 	}
 	.img-vegetable {
 		width: 100%;
 		margin-left: 10px;
+	}
+	Table {
+		width:80%;
+		margin: 10px;
 	}
 }
 	
